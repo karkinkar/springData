@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS PUBLIC.USERDATA
+(
+    ID            SERIAL,
+    NAME          VARCHAR(255),
+    HEIGHT        INTEGER,
+    DATE_OF_BIRTH date
+);
